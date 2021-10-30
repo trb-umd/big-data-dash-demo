@@ -1,0 +1,5 @@
+Installation: A requirements.txt file has been provided, and can be utilized to install the app dependencies by means of "pip3 -r requirements.txt" (or other means appropriate to the host system) from a terminal within the app folder.
+
+Usage: To use, run the attached "app.py" file.  Preprocessed CSV files have been provided in a subfolder, and will be utilized by "app.py" to quickly load the data and display by means of a dash dashboard, accessible through the browser at http://127.0.0.1:8050.
+
+Additional functionality: The method for creating the preprocessed CSV files is contained in the attached "data_prep.py" file.  Should the "app.py" file not detect the appropriate CSV files, "data_prep.py" which will (as appropriate) download the original .zip file, unzip it, and extract/translate/summarize the data, which will then be saved to the corresponding CSV files which would otherwise be loaded.  Should you wish to utilize this functionality, it can be made to run by moving/removing the CSV subfolder and re-running "app.py."
